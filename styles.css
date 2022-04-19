@@ -4,6 +4,10 @@
 
 body {
   background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .titulo {
@@ -12,4 +16,36 @@ body {
 
 .borrder {
   border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+#botonStart {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  border: 3px solid white;
+  padding: 40px 80px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+#botonStart:hover {
+  background-color: red;
+}
+
+#botonStart:before {
+  content: "";
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  transform: translatex(-100%) rotate(45deg);
+  transition: all 0.3s;
+}
+
+#botonStart:hover:before {
+  transform: translatex(100%) rotate(45deg);
 }
