@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .logo {
   width: 175px;
 }
@@ -14,6 +20,38 @@ body {
   border-bottom: 1px solid rgb(56, 56, 56);
 }
 
+#btnOnline {
+  padding: 20px 40px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 3px solid white;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+#btnOnline:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: violet;
+  z-index: -1;
+  transform: translatex(-100%);
+  transition: all 1s;
+}
+
+#btnOnline:hover:before {
+  transform: translatex(0%);
+}
+
+#btnOnline:hover {
+  color: white;
+}
+
 #botonStart {
   text-decoration: none;
   color: white;
@@ -25,7 +63,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-
 #botonStart:hover {
   background-color: red;
 }
@@ -45,3 +82,5 @@ body {
 #botonStart:hover:before {
   transform: translatex(100%) rotate(45deg);
 }
+
+/*# sourceMappingURL=styles.css.map */
