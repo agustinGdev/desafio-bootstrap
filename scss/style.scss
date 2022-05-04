@@ -1,4 +1,5 @@
 @import "./base/reset";
+@import "./base/variables";
 
 .logo {
     width: 175px;
@@ -18,19 +19,16 @@
     
     
 
-  $test-color: white;
-
-  #btnOnline {
-    padding: 20px 40px;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: $test-color;
-    font-size: 20px;
-    border: 3px solid $test-color;
-    position: relative;
-    transition: all 1s;
-    overflow: hidden;
   
+
+  .btnOnline {
+    
+    @extend .botonStart;
+    background-color: rgb(24, 14, 170);
+    
+    
+    
+
   
   &:before {
     content: "";
@@ -47,15 +45,15 @@
 }
   
   
-  #btnOnline:hover:before {
+  .btnOnline:hover:before {
     transform: translatex(0%);
   }
   
-  #btnOnline:hover {
+  .btnOnline:hover {
     color: $test-color;
   }
 
-  #botonStart {
+  .botonStart {
     text-decoration: none;
     color: $test-color;
     font-family: sans-serif;
@@ -71,7 +69,7 @@
       
     }     
    }
-   #botonStart:before {
+   .botonStart:before {
     content: "";
     background-color: $test-color;
     top: 0;
@@ -82,7 +80,7 @@
     transform: translatex(-100%) rotate(45deg);
     transition: all 0.3s;
 }
-#botonStart:hover:before {
+.botonStart:hover:before {
   transform: translatex(100%) rotate(45deg);
 }
    
