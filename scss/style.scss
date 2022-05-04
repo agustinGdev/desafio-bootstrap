@@ -19,15 +19,8 @@
 
   .btnOnline {
     padding: 5px 10px;
-    @extend .botonStart;
-    
+    @extend .botonStart;    
     background-color: rgb(24, 14, 170);
-  
-
-    
-    
-    
-
   
   &:before {
     content: "";
@@ -62,9 +55,10 @@
     transition: all 0.3s;
     position: relative;
     overflow: hidden;
+    font-weight: map-get($font-weights, bold);
 
     &:hover{
-      background-color: red;
+      @include  defino-color;
       
     }     
    }
