@@ -1,0 +1,7 @@
+@mixin theme($light-theme: true) {
+    @if $light-theme {
+      background-color: $test-color;
+      color: $color-fondo;
+    }
+  }
+  

@@ -1,6 +1,6 @@
 @import "./base/reset";
 @import "./base/variables";
-
+@import "./base/mixin";
 .logo {
     width: 175px;
   }
@@ -15,16 +15,15 @@
   
   .borrder {
     border-bottom: 1px solid rgb(56, 56, 56);
-  }
-    
-    
-
-  
+  }  
 
   .btnOnline {
-    
+    padding: 5px 10px;
     @extend .botonStart;
+    
     background-color: rgb(24, 14, 170);
+  
+
     
     
     
@@ -59,7 +58,7 @@
     font-family: sans-serif;
     font-size: 40px;
     border: 3px solid $test-color;
-    padding: 20px 40px;
+    padding: 15px 35px;
     transition: all 0.3s;
     position: relative;
     overflow: hidden;
@@ -85,5 +84,7 @@
 }
    
   
-
+.dark-mode{
+  @include theme(true);
+}
   
