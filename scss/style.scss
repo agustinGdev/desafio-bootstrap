@@ -55,7 +55,7 @@
     transition: all 0.3s;
     position: relative;
     overflow: hidden;
-    font-weight: map-get($font-weights, bold);
+    font-weight: map-get($font-weights, bo);
 
     &:hover{
       @include  defino-color;
