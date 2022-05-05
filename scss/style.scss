@@ -93,4 +93,9 @@
   color: map-get($colores-juegos, titulos );
 }
 
+.link-nosotros{
+  text-decoration: none;
+  color: rgb(236, 43, 43);
+  font-weight: map-get($font-weights, bold );
+}
 
