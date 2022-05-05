@@ -76,6 +76,10 @@ body {
   transform: translatex(100%) rotate(45deg);
 }
 
+.colores-carousel {
+  font-weight: 700;
+}
+
 .dark-mode {
   background-color: white;
   color: black;
@@ -87,7 +91,7 @@ body {
 }
 
 .games-title {
-  color: rgb(214, 211, 8) "nosotros-juegos" rgb(236, 43, 43);
+  color: rgb(214, 211, 8);
 }
 
 .link-nosotros {

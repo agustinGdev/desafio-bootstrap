@@ -78,7 +78,12 @@
 .botonStart:hover:before {
   transform: translatex(100%) rotate(45deg);
 }
-   
+
+
+.colores-carousel{
+  font-weight: map-get($font-weights , bold );
+  
+} 
   
 .dark-mode{
   @include theme(true);
@@ -90,7 +95,7 @@
 }
 
 .games-title{
-  color: map-get($colores-juegos, titulos );
+  color: map-get($colores-juegos, titulos);
 }
 
 .link-nosotros{
@@ -98,4 +103,6 @@
   color: rgb(236, 43, 43);
   font-weight: map-get($font-weights, bold );
 }
+
+
 
