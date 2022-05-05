@@ -81,4 +81,13 @@ body {
   color: black;
 }
 
+.title-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.games-title {
+  color: rgb(214, 211, 8);
+}
+
 /*# sourceMappingURL=styles.css.map */

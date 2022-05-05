@@ -83,5 +83,14 @@
 .dark-mode{
   @include theme(true);
 }
-  
+
+.title-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.games-title{
+  color: map-get($colores-juegos, titulos );
+}
+
 
