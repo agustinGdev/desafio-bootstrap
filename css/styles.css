@@ -110,4 +110,18 @@ body {
   font-weight: 700;
 }
 
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq {
+  color: rgb(123, 123, 209);
+}
+
+.lead {
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */

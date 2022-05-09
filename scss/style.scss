@@ -105,5 +105,18 @@
   font-weight: map-get($font-weights, bold );
 }
 
+.img-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.faq{
+ color: rgb(123, 123, 209);
+  
+}
+
+.lead{
+  color: white;
+}
 
