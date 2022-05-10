@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Level Up</title>
+    <title>Level Up - Ayuda</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 text-light sticky-top">
@@ -55,6 +55,115 @@
         </div>
       </div>
     </nav>  
+
+
+    <!-- Termina la Nav-bar -->
+    <!-- Arranca la section de Help -->
+
+
+    <section id="intro-section" class="help mb-3">
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="display-3 fw-bold text-capitalize ayuda-color">Ayuda</h1>
+            <div class="heading-line"></div>            
+          </div>
+          <div class="row text-white">
+            <div class="col-12 col-lg-6 gradient shadow p-3">
+              <div class="cta-info w-100">
+                <h4 class="display-4 fw-bold">¡Mandanos tu consulta!</h4>
+                <p class="lh-lg ayuda-color">
+                  Aqui podras enviarnos tu mensaje privado y de manera casi instantanea nos comunicaremos contigo
+                </p>
+                <h3 class="display-3--brief">
+                  Aqui podras hacer las siguientes consultas:
+                </h3>
+                <ul class="cta-info__list ayuda-color">
+                  <li>Reembolsos</li>
+                  <li>Consultas especificas</li>
+                  <li>Problemas con Coach o de cualquier tipo</li>
+                  <li>Otros</li>
+                </ul>
+                <p>Continua llenando el formulario con los datos basicos para que podamos contactarte.
+                  Intenta ser lo mas <strong>detallado</strong>  posible con tu problema y/o situacion asi podremos darte una mejor atencion.
+                </p>
+                <p>
+                  Recorda que los caracteres son <strong>ILIMITADOS</strong>.
+                </p>
+              </div>
+            </div>
+            <!-- Arranco Formulario -->
+            <div class="col-12 col-lg-6 bg-dark shadow p-3">
+              <div class="form w-100 pb-2">
+                <h4 class="display-3--title mb-5 ayuda-color">Completa el formulario a continuacion</h4>
+                <form action="" class="row">
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <input
+                      type="text"
+                      name="firstName"
+                      id="firstName"
+                      class="form-control shadow form-control-lg"
+                      placeholder="Nombre y Apellido"
+                    />
+                  </div>
+                  <div class="col-lg-6 col-md-6 mb-3">
+                    <input
+                      type="text"                      
+                      class="form-control shadow form-control-lg"
+                      placeholder="Nick en la plataforma"
+                    />
+                  </div>
+                  <div>
+                    <select class="form-select form-select-lg mb-3 form-control shadow form-control-lg" aria-label=".form-select-lg example">
+                    <option selected>Selecciona aqui tu juego</option>
+                    <option value="1">Counter-Strike: Global Offensive</option>
+                    <option value="2">Valorant</option>
+                    <option value="3">League of Legends</option>
+                    <option value="4">Fortnite</option>
+                  </select>
+                  </div>
+                  
+                  <div class="col-lg-12 mb-3">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      class="form-control shadow form-control-lg"
+                      placeholder="Correo electrónico"
+                    />
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="8"
+                      class="form-control shadow form-control-lg"
+                      placeholder="Cuentenos su problema."
+                    ></textarea>
+                  </div>
+                  <div class="text-center d-grid mt-1">
+                    <button
+                      class="btn btn-success rounded-pill pt-3 pb-3"
+                      type="button"
+                    >
+                      
+                      ¡Envia tu mensaje!
+                    </button>
+                    
+                    <button
+                      class="btn btn-danger rounded-pill pt-3 pb-3 padding-top"
+                      type="button"
+                    >
+                      
+                      Vaciar Campos
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
     
       <footer
